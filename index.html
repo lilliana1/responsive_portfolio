@@ -13,9 +13,9 @@
     <link rel="stylesheet" href="./assets/style.css">
     <title>Lilliana Ramos Portfolio</title>
 </head>
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
     <!--navbar-->
-    <nav id="navbar-example2" class="navbar navbar-dark bg-dark">
+    <nav id="navbar-example2" class="navbar navbar-dark bg-dark">  
         <a class="navbar-brand" href="#">L.R.</a>
         <ul class="nav nav-pills">
             <li class="nav-item">
@@ -43,16 +43,16 @@
     </div>
     <!--container-->
     <div class="container">
-      <!--row-->
+      <!--ABOUT ROW-->
       <div class="row">
-        <!--col-->
-        <div class="col-sm-6">
+        <!--ABOUT COL-->
+        <div id="about" class="col-sm-6">
           <h3>About</h3>
             <p>Lilliana was born and raised in Puerto Rico. Currently moved to Orlando, 
               Florida to pursue her dream of becoming a Web Developer. She considers herself a 
               forever student.</p>
           </div>
-          <!--col-->
+        <!--ABOUT COL-->
         <div class="col-sm-3">
           <h3>Education</h3>
             <ul>
@@ -62,7 +62,7 @@
                 </ul>
             </ul> 
         </div>
-        <!--col-->
+        <!--ABOUT COL-->
         <div class="col-sm-3">
           <h3>Hobbies</h3> 
           <ul>
@@ -73,10 +73,10 @@
           </ul>       
         </div>
       </div>
-      <!--row-->
+      <!--SKILLS ROW-->
       <div class="row">
-        <!--col-->
-        <div class="col-lg">
+        <!--SKILLS COL-->
+        <div id="skills" class="col-lg">
           <h3>Skills</h3>
           <ul>
             <li>HTML5</li>
@@ -84,29 +84,41 @@
             <li>Javascript</li>
         </div>
       </div>
-      <!--row-->
-      <div class="row">
-        <!--col-->
-        <div class="col-sm-2">
-          <h3>Portfolio</h3>
-          <p></p>
-        </div>
-        <!--col-->
-        <div class="col-sm-2">
-            <h3></h3>
-            <div class="card" style="width: 18rem;">
-              <img src="./assets/images/Screen Shot 2019-11-23 at 11.28.23 AM.png" class="card-img-top" alt="screenshot of basic portfolio">
+      <!--PORTFOLIO ROW-->
+      <div id="portfolio" class="row" style="margin-top: 15px">
+        <h3>Portfolio</h3>
+        <!--PORTFOLIO COL-->
+        <div class="col-sm-4">
+          <h3></h3>
+          <div class="card" style="width: 18rem;">
+              <img class="card-img-top" src="./assets/images/Screen Shot 2019-11-23 at 11.28.23 AM.png" alt="Screenshot of basic portfolio">
               <div class="card-body">
-                <h5 class="card-title">Basic Portfolio</h5>
                 <p class="card-text">Static and simple portfolio created with HTML/CSS </p>
-                <a href="https://lilliana1.github.io/basic_portfolio/"  target="_blank" class="btn btn-primary">Basic Portfolio Webpage</a>
+                <a href="https://lilliana1.github.io/basic_portfolio/"  target="_blank" class="btn btn-dark">Visit Basic Portfolio</a>
               </div>
             </div>
+        </div>
+        <!--PORTFOLIO COL-->
+        <div class="col-sm-3">
+            <h3></h3>
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="./assets/images/Screen Shot 2019-11-23 at 3.39.59 PM.png" alt="Screenshot of responsive portfolio">
+                <div class="card-body">
+                  <p class="card-text">Responsive portfolio created with HTML/CSS and Boostrap </p>
+                  <a href="https://lilliana1.github.io/responsive_portfolio/"  target="_blank" class="btn btn-dark">Visit Responsive Portfolio</a>
+                </div>
+              </div>
+        </div>
+        <!--col-->
+        <!-- <div class="col-sm-3"> -->
+            <h3></h3>
+            
+            <!-- </div> -->
           </div>
           
           <!--col-->
           <div class="col-sm-">
-                <h3>...</h3>
+                <h3></h3>
                 <p></p>
               </div>
       </div>
@@ -115,7 +127,7 @@
       <!-- <div class="row"> -->
         <!--col-->
         <!-- <div class="col-lg"> -->
-            <div class="container contact-form">
+            <div id="contact" class="container contact-form" >
                 <form method="post">
                     <h3>Contact Me</h3>
                    <div class="row">
