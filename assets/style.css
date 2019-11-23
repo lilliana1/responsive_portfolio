@@ -13,3 +13,15 @@ h4 {
 #jumbotron1 {
     background-color: white;
 }
+
+#footer {
+    text-align: center;
+}
+
+
+
+@media (min-width: 576px) {
+    .jumbotron {
+      padding-bottom: 0;
+  }
+  }
