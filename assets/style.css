@@ -22,4 +22,15 @@ h4 {
     text-align: center;
 }
 
+@media only screen and (max-width: 991px) {
+    div.card {
+        /* background-color: red;
+        box-sizing: unset; */
+        
+    }
+    #hobbie{
+       box-sizing: content-box;
+        
+      }
+  }
 
