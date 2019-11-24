@@ -1,7 +1,9 @@
 * {
     font-family: 'Poppins', sans-serif;
 }
-
+.navbar-brand {
+   color: white;
+}
 h4 {
     font-size: xx-large;
 }
@@ -17,19 +19,20 @@ h4 {
 }
 .card-img-top:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  }
+}
 #footer {
     text-align: center;
 }
 
 @media only screen and (max-width: 991px) {
+    #hobbie{
+        box-sizing: content-box;
+         
+       }
     div.card {
-        
+        background-color: red;
         
     }
-    #hobbie{
-       box-sizing: content-box;
-        
-      }
-  }
+   
+}
 
