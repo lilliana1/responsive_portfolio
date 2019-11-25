@@ -26,12 +26,12 @@ h4 {
 }
 
 @media only screen and (max-width: 991px) {
-    /* #hobbie{
+    #hobbie{
         box-sizing: content-box;
          
-       } */
+       }
     div.card {
-        background-color: red;
+        border: 20px;
         
     }
    
