@@ -30,8 +30,12 @@ h4 {
         box-sizing: content-box;
          
        }
-    div.card {
-        border: 20px;
+    div.card-body {
+        border-style: solid;
+        border-color: lightgray;
+        border-width: 1px;
+        
+        
         
     }
    
